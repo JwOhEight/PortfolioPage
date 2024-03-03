@@ -1,3 +1,62 @@
 :root {
-    
+    --bluegray: #90ADC6;
+    --pewter: #E9EAEC;
+    --yellow: #FAD02C;
+    --darkblue: #333652;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 110%;
+    transition: box-shadow 0.3s ease;
+    margin: 0;
+    border-bottom: black 1px solid;
+}
+
+nav:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navSectionDiv {
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+}
+
+.navList {
+    list-style-type: none; /* Removes the default bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Adds space between list items */
+}
+
+.navList li {
+    padding: 10px 0; /* Adds vertical padding to each list item */
+    margin-left: 20px;
+}
+
+.navLogoDiv {
+    display: flex;
+    gap: 20px; /* Adds space between logos */
+    align-items: center; /* Centers logos vertically */
+    margin-right: 20px;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+
+body {
+    background-color: var(--bluegray);
+}
+
+p {
+    font-family: "Noto Sans", sans-serif;
+}
+
