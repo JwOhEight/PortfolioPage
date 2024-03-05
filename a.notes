@@ -1,0 +1,28 @@
+[2024-03-04]
+Notes:
+    - Add div for each skill category
+    - Add class names for each category div
+    - Add class names for each skill category list
+    - Remove list styles for each skill category
+    - Change paragraph and heading fonts
+    - Add 'icon' class to every icon in HTML
+    - Add <i> elements to each skill type example
+    - Add darkgray color to root in CSS
+Ideas:
+    - Should I do something to visualize each skill? Perhaps dots representing each level of knowledge.
+
+TODO:
+! Skills section !
+-= HTML =-
+    [√] Create divs for each skill category
+    [√] Figure out a way to make sections for each category, then subcategory
+
+-= CSS =-
+    [√] Style the divs for each skill category
+        [√] Flexbox
+            [√] Center align
+            [x] Space evenly    
+    [ ] Remove border for skills section?
+    [√] Remove list styles for each skills category
+
+Activity Log:

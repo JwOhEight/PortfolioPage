@@ -3,6 +3,7 @@
     --pewter: #E9EAEC;
     --yellow: #FAD02C;
     --darkblue: #333652;
+    --darkgray: #616a69;
 }
 
 /* Nav section */
@@ -11,40 +12,46 @@ nav {
     justify-content: space-between;
     width: 100%;
     height: 110%;
-    transition: box-shadow 0.3s ease;
-    margin: 0;
     border-bottom: black 1px solid;
-    color: var(--darkblue);
     margin-bottom: 100px;
+    border-radius: 15px;
+    border: 2px solid black ;
+    backdrop-filter: blur(60px);
+    transition: box-shadow 0.3s ease;
 }
 
+
 nav:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .navSectionDiv {
     display: flex;
-    justify-content: flex-end; /* Aligns items to the right */
+    justify-content: flex-end; 
 }
 
 .navList {
-    list-style-type: none; /* Removes the default bullet points */
+    list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px; /* Adds space between list items */
+    gap: 20px;
+    color: white;
 }
 
-.navList li {
-    padding: 10px 0; /* Adds vertical padding to each list item */
+.navList a {
+    padding: 10px 0;
     margin-left: 20px;
-    color: var(--pewter);
+    text-decoration: none;
+    mix-blend-mode: difference;
+    color: var(--darkblue);
+
 }
 
 .navLogoDiv {
     display: flex;
-    gap: 20px; /* Adds space between logos */
-    align-items: center; /* Centers logos vertically */
+    gap: 20px;
+    align-items: center;
     margin-right: 20px;
 }
 
@@ -68,13 +75,13 @@ nav li {
     flex-direction: column;
     margin-top: 100px;
     margin-bottom: 100px;
-    border: 1px solid var(--darkblue);
+    border: 1px solid var(--pewter);
     transition: box-shadow 0.3s ease;
-    
+    backdrop-filter: blur(60px);
 }
 
 .introductionSection:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.5);
 }
 
 .introTextDiv, .introImageDiv {
@@ -95,8 +102,6 @@ nav li {
 }
 
 .introImage {
-    width: 20%;
-    height: 20%;
     border: 5px double var(--darkblue);
     border-radius: 30px;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
@@ -131,6 +136,51 @@ nav li {
 }
 
 /* Skills section */
+.skillsSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid var(--darkblue);
+    transition: box-shadow 0.3s ease;
+}
+
+.skillsSection:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skillList {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-wrap: pretty;
+}
+
+
+.skillCategory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    border-radius: 15px;
+    backdrop-filter: blur(60px);
+    border: 5px double var(--darkblue);
+    border-radius: 30px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+}
+
+.skillCategoryHeader {
+    font-size: 30px;
+    color: var(--yellow);
+    margin: 10px;
+}
+
+.skillSubcategoryHeader {
+    text-align: center;
+}
 
 /* General selectors */
 body {
@@ -140,7 +190,21 @@ body {
     
 }
 
-p {
-    font-family: "Rubik", sans-serif;
+h1 {
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
 }
+
+h2, h3{
+    font-family: "Open Sans", sans-serif;
+}
+
+p, li {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.icon {
+
+}
+
 
