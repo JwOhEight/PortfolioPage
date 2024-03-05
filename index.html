@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
+    
+    <!-- Patrick Hand - H1 - H2 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Patrick+Hand&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- Rubik - paragraph -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>JwOhEight Portfolio</title>
 </head>
 
@@ -21,11 +24,11 @@
                 <nav>
                     <div class="navSectionDiv">
                         <ul class="navList">
-                            <li><a>Introduction</a></li>
-                            <li><a>Skills</a></li>
-                            <li><a>Timeline</a></li>
-                            <li><a>Portfolio</a></li>
-                            <li><a>Contact</a></li>
+                            <li><a href="#introductionSection">Introduction</a></li>
+                            <li><a href="#skillsSection">Skills</a></li>
+                            <li><a href="#timelineSection">Timeline</a></li>
+                            <li><a href="#mainPortfolioSection">Portfolio</a></li>
+                            <li><a href="#contactSection">Contact</a></li>
                         </ul>
                     </div>
                     <div class="navLogoDiv">
@@ -39,28 +42,18 @@
                 </nav>
             </div>
 
-            <div class="introductionSection">
-                <h1>Jacob Gebel</h1>
-                <div class="introImageDiv">
-                    <img id="jwImage" src="images/bench1.jpg" alt="Jacob sitting on a bench" width="25%" height="25%" />
-                    <h2>I'm Jacob "Jw" Gebel.</h2>
-                    <p>
-                        Thanks to the the youth of my parents and the rise of smart technology in the mid to late 2000's
-                        and , I was introduced to gaming and its related technology at the perfect time. Every since I
-                        was able to use a Ninendo 64 controller, I was hooked. I had used our family's first computer,
-                        learned to game, use dial-up, and eventually learn to use broadband internet by myself.<br>
-                        Once I got my first laptop at 15, I started experimenting with music on FL Studio. At this point
-                        in my life, I had finally come to learn what it meant to be creative and use a technology to
-                        express myself through a creative medium. I see this as the turning point for me that would end
-                        up as the basis for my choices in careers in my adult life.<br>
-                        Now at 22, I'm taking a turn and delving into coding, seeking to make it a full-time job. My
-                        goal is to use coding as a medium for creative expression, eventually getting me into web and
-                        game development.</p>
-                </div>
+            <div class="introductionSection" id="introductionSection">
+                    <div class="introTextDiv">
+                        <h2 class="introTextHeader">I am Jacob "Jw" Gebel.</h2>
+                        <p id="introTextParagraph"> I am a 22 year old freelance developer, musician, and 3D artist. I strive to be a multi-talented individual ready to take on any challenge.</p>
+                    </div>
+                    <div class="introImageDiv">
+                        <img class="introImage" src="images/bench1.jpg" alt="Jacob sitting on a bench"/>
+                    </div>
             </div>
         </header>
 
-        <div class="skillsSection">
+        <div class="skillsSection" id="skillsSection">
             <div>
                 <ul>
                     <li>
@@ -121,7 +114,7 @@
             </div>
         </div>
 
-        <div class="timelineSection">
+        <div class="timelineSection" id="timelineSection">
             <div class="container">
                 <div class="timelines">
                     <h2>Timelines</h2>
@@ -190,7 +183,7 @@
                 </div>
             </div>
 
-            <div class="portfolioMainSection">
+            <div class="portfolioMainSection" id="portfolioMainSection">
                 <h2>Portfolio</h2>
                 <div class="musicPortfolio">
                     <h3>Music Portfolio</h3>
@@ -265,7 +258,7 @@
                 </div>
             </div>
 
-            <div class="contactSection">
+            <div class="contactSection" id="contactSection">
                 <h2>Contact Me</h2>
                 <div class="contactContainer">
                     <div class="phoneNumber">
@@ -318,5 +311,5 @@
         </div>
     </footer>
 </body>
-
+<script src="main.js"></script>
 </html>
