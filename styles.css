@@ -55,6 +55,7 @@ nav li {
     font-size: 16px;
 }
 
+/* Introduction section */
 @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
@@ -129,6 +130,9 @@ nav li {
     margin: 25px;
 }
 
+/* Skills section */
+
+/* General selectors */
 body {
     background-image: url('https://i.ibb.co/9hwJFSZ/background.jpg');
     background-repeat: no-repeat;
@@ -138,13 +142,5 @@ body {
 
 p {
     font-family: "Rubik", sans-serif;
-}
-
-.countdown {
-    display: none; /* Hide the countdown by default */
-}
-
-.age:hover .countdown {
-    display: inline; /* Show the countdown when the age is hovered over */
 }
 
