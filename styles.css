@@ -102,6 +102,8 @@ nav li {
 }
 
 .introImage {
+    width: 25%;
+    height: 25%;
     border: 5px double var(--darkblue);
     border-radius: 30px;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
@@ -204,7 +206,8 @@ p, li {
 }
 
 .icon {
-
+    width: 25px;
+    height: 25px;
 }
 
 
