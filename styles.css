@@ -46,7 +46,8 @@ nav:hover {
     margin-left: 20px;
     text-decoration: none;
     mix-blend-mode: difference;
-    color: var(--darkblue);
+    color: white;
+    backdrop-filter: blue(50px);
 
 }
 
@@ -373,6 +374,8 @@ nav li {
     border-bottom: 1px solid black;
     border-top: 1px solid white;
     transition: box-shadow 0.3s ease;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -502,6 +505,60 @@ div.codePortfolioItem {
 }
 
 /* Contact section */
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid white;
+    border-top: 1px solid black;
+    transition: box-shadow 0.3s ease;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.contactSection:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contactHeader {
+    position: relative;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    top: -60px;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.contactContainer a{
+    text-decoration: none;
+    color: black;
+}
+
+.contactContainer a:hover {
+    color: var(--darkblue);
+}
+
+.contactSection a:visited {
+    color: darkblue;
+}
+
+.phoneNumber, .email, .discord {
+    backdrop-filter: blur(60px);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+}
+
+
 
 
 /* General selectors */
@@ -528,11 +585,9 @@ li {
     font-family: "Fira Sans", sans-serif;
 }
 
-.icon {
-    width: 25px;
-    height: 25px;
+img {
+    width: auto;
 }
-
 *,
 *::before,
 *::after {
