@@ -10,17 +10,29 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     background-color: var(--main-bg-color);
     color: var(--main-p-color);
+    z-index: -100;
 }
 
-    header {
-        height: 100px;
-        width: 1920px;
-        font-family: var(--main-header-font);
-    }
+header {
+    height: auto;
+    width: 1920px;
+    font-family: var(--main-header-font);
+    margin-bottom: 50px;
+    z-index: -99;
+}
+
+main {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -98;
+}
 
 
 /* TOP BANNER */
@@ -35,30 +47,67 @@ body {
     position: relative;
 }
 
-    .topBannerLogoDiv {
-        display: flex;
-        align-items: center;
-        z-index: 2;
-        background-color: var(--main-div-color);
-    }
+.topBannerLogoDiv {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    background-color: var(--main-div-color);
+}
 
-    .hltcLogo {
-        width: 100%;
-        height: 100%;
-        object-fit: fill;
-    }
+.hltcLogo {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
 
-    .bannerHeader {
-        text-align: center;
-        text-wrap:nowrap;
-        padding: 5px;
-        color: var(--main-p-color);
-    }
+.bannerHeader {
+    text-align: center;
+    text-wrap: nowrap;
+    padding: 5px;
+    color: var(--main-p-color);
+}
 
 
-    .bannerNationFlag {
-        object-fit: cover;
-        width: 100%;
-        filter: blur(5px);
-        z-index: -1;
-    }
+.bannerNationFlag {
+    width: 100%;
+    filter: blur(5px);
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* LAPTOP */
+
+.hltcLaptopContainer {
+    position: relative; /* Needed for absolute positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.hltcLaptop {
+    height: 75%;
+    width: 75%;
+}
+
+.hltcLaptopScreen{
+    position: absolute;
+    /* top: Adjust top position for screen placement */
+    /* left: Adjust left position for screen placement */
+    width: 1211px;
+    height: 658.2px;
+    top: 12.1px;
+    left: 355.6px;
+    background-color: black; /* Optional background color for content */
+    color: white; /* Optional text color for content */
+    text-align: center; /* Optional for centered text */
+  }
+
+.hltcLaptopScreenDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
