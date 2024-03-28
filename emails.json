@@ -1,0 +1,150 @@
+{
+    "emails": [
+        {
+            "title": "New Email!",
+            "email": "Hi @@LEADER@@, do you remember me? Yeah, it's been 12 years. I'm the guy you robbed. I want all my stuff back... If you don't give it back, I'll cry. Just kidding, I'm not a crybaby. I am, howeveer, a scary dude. I need 30,000 $$CURRENCY-PLURAL$$ by the end of the week or I'll go straight to the press... Don't make me wait. - The Guy You Robbed",
+            "emailaddress": "m1ke.robbervictim@toughman.net",
+            "topics": "internet, security, crime, corruption",
+            "category": "General",
+            "choices": [
+                {
+                    "text":  "Can you believe this?! The very first email you recieve as ^^LEAD-name^^ is an attempt to blackmail you for money. We should show the people how tough you are on crime and corruption by making an example of this person. Send this man to prison! What do you say?",
+                    "sender": "katie.newsflash@press.gov",
+                    "result": "issue_1_result_1"
+                },
+                {
+                    "text": "Um, I REALLY don't think that's a good idea. You really think people would be okay with us throwing this guy in jail over an email that's clearly not serious? If/when this goes public and they read that email, do you think everyone's going to go 'Yeah, that guy was dead serious about blackmailing ^^LEAD-name^^, I'm glad he's on his way to federal prison.'? I think we should just ignore it and move on.",
+                    "sender": "Cameron9@quickmail.com",
+                    "result": "issue_1_result_2"
+                },
+                {
+                    "text": "What I want to know is how this person got your email address. Clearly, we have a security issue that needs to be addressed. I think we should focus on that first and wipe your email address from all public records.",
+                    "sender": "kevmit.ghost@encryp.gov",
+                    "result": "issue_1_result_3"
+                },
+                {
+                    "text": "Woah, woah, woah... I think I should at least get some sort of job for your security team. I mean, I'm the one who found this email, right? It wasn't exactly easy to find. I think I should be compensated for my hard work.",
+                    "sender": "m1ke.robbervictim@toughman.net",
+                    "result": "issue_1_result_4"
+                }
+            ]
+        },
+        {
+            "title": "URGENT",
+            "email": "IMMEDIATE ALERT: A FIRE HAS BEEN DETECTED IN THE TREASURY BUILDING. PLEASE EVACUATE IMMEDIATELY.",
+            "emailaddress": "no-reply@treasurydepartment",
+            "topics": "treasury, economy, safety, security",
+            "category": "economy",
+            "choices": [
+                {
+                    "text": "Who would've thought that making our bank notes out of literal paper would be a bad idea? I mean, I'm no expert, but I think it's safe to say that we should probably switch to a less flammable material. Something like plastic, maybe?",
+                    "sender": "jasper.enviro@EPA.gov",
+                    "result": "issue_2_result_1"
+                },
+                {
+                    "text": "That's actually a really good idea. However, just any amount of plastic won't do. We should calculate how much recycled plastic would equal 1 $$CURRENCY$$. That way, we can help the environment and the economy at the same time. It's a win-win!",
+                    "sender": "tim.enviro@EPA.gov",
+                    "result": "issue_2_result_2"
+                },
+                {
+                    "text": "We wouldn't have to worry about flamable currency if we didn't have physical currency at all! I think we should move to cryptocurrency. It's safer, more secure, and it's the future.",
+                    "sender": "jackson.econ@treasury.gov",
+                    "result": "issue_2_result_3"
+                },
+                {
+                    "text": "Have you ever seen the movie 'The Dark Knight'? You know how the Joker burns all that money? I think we should do that. I mean, we have a lot of money, right? We could just burn it all and start over. It would be a great way to show the people that we're serious about our economy.",
+                    "sender": "peepeepoopoo1234412@wmail.com",
+                    "result": "issue_2_result_4"
+                },
+                {
+                    "text": "Do you hear this guy?! This is exactly what I've been talking about. We just need to prevent all people under the age of 18 from even TALKING about money... or anything else for that matter. I think we should just ban all minors from speaking. It's the only way to keep our economy safe.",
+                    "sender": "mike@donttread@realmail.org",
+                    "result": "issue_2_result_5"
+                }
+            ]
+        },
+        {
+            "title": "GOT GOLD?",
+            "email": "Sup, @@RANDOM_NAME@@? This is Richie from CA$H 4 GOLD. We got a great deal on gold right now. You should come by and check it out. We're about 3 minutes down the road from Silver Surfers. Hope to see you soon!",
+            "emailaddress": "bobby@cash4gold.org",
+            "topics": "economy, business, gold, money",
+            "category": "economy",
+            "choices": [
+                {
+                    "text": "This is actually a really good opportunity to invest in smaller businesses. Imagine this: We invest in this business, make lots of people buy gold, then when more people are into gold, the price of gold will skyrocket and everyone who invested in gold some time ago will be rich. Absolute genius, right?",
+                    "sender": "jim.econ@treasury.gov",
+                    "result": "issue_3_result_1"
+                },
+                {
+                    "text": "I'd like to point out the complete opposite of this, actually. We're not an investment firm and I'm pretty sure that directly investing into businesses to inflate the price of gold is illegal. Like, really really illegal.",
+                    "sender": "grace.suitprevention@law.gov",
+                    "result": "issue_3_result_2"
+                },
+                {
+                    "text": "The only reason you're concerned about breaking that law is because it's a law that can be broken. We should just completely remove that law. Look at it this way: If we remove the law, we can invest in small businesses directly and... well, we essentially have the ability to invest into a market that we can control. It's an absolute win!",
+                    "sender": "dave.econ@treasury.gov",
+                    "result": "issues_3_result_3"
+                },
+                {
+                    "text": "While I do agree that investing in small businesses is a good idea, I think we should focus on investing in businesses that are more eco-friendly. We should invest in businesses that are more sustainable and less harmful to the environment. Gold is pretty and all, but how about we invest in the agriculture industry instead? You know, support farmers and all that.",
+                    "sender": "farmerjames@applecottagefarms.com",
+                    "result": "issue_3_result_4"
+                }
+            ]
+        },
+        {
+            "title": "Tensions rise...",
+            "email": "Hello, I come to you in a time of dire need. Billtopia is currently in a state of civil unrest and I fear that it may escalate into a full-blown civil war. I ask for your help in this time of need. Please, send nuclear munitions to my nation. - @@RANDOM_NAME@@",
+            "emailaddress": "bill@billtopia.land",
+            "topics": "military, science, technology, public opinion",
+            "category": "military",
+            "choices": [
+                {
+                    "text": "Although this nation seems to be in a state of civil unrest, it's probably not a good idea to give an angry nation nuclear weapons. The world at large seems to be largely peaceful at the time and giving nuclear weapons to a nation that is in a state of civil unrest could be a recipe for disaster. I think we should send some basic explosives instead.",
+                    "sender": "martha.love@peace.gov",
+                    "result": "issue_4_result_1"
+                },
+                {
+                    "text": "I'd like to remind you that we are somewhere in the rankings for nuclear munition production. We could spare some nukes for a pal. Let's say we give them like... 10 nukes. That should be enough, right?",
+                    "sender": "ricky.mili@warroom.gov",
+                    "result": "issue_4_result_2"
+                },
+                {
+                    "text": "How about NO nukes... like... ever? Can we just outright STOP nuke production here? We may lose a couple of jobs in the mining department, but we can shift them somewhere else. Just ban nukes and show the world that you don't need nuclear weapons to uphold a semblence of peace.",
+                    "sender": "micha.love@peace.gov",
+                    "result": "issues_4_result_3"
+                },
+                {
+                    "text": "I agree, we probably shouldn't ship WMDs to unstable nations... however, we could show them HOW to make nukes. It'll put them ahead of the curve and they'll be able to defend themselves. It's a win-win for everyone. We should send them the blueprints to make nukes, but not the actual nukes themselves.",
+                    "sender": "jared.tech@nukescience.gov",
+                    "result": "issue_4_result_4"
+                }
+            ]
+        },
+        {   
+            "title": "FIREEEEEEE",
+            "email": "I CANNOT STOP THE FIRE. I LOVE THE FIRE. BURN TREES BURN HOUSES BUT BURN THE TREES MORE THE FUTURE OF SOCIETY IS IN DEVELOPMENT. I WILL BURN THE TREES. I WILL BURN THE GRASS. I WILL BURN THE LAND. I WILL BURN EVERYTHING. I WILL BURN THE WORLD.",
+            "emailaddress": "fire@fire.fire",
+            "topics": "climate, general, economy, health",
+            "category": "climate",
+            "choices": [
+                {
+                    "text": "I mean this guy is clearly a pyromaniac. That's besides the point... how about we just... let him burn down the trees? I mean, it's not like we need them, right? Send the wood (or what's left of it) to lumber mills, the grass to wherever grass goes, and start developing land. Takes the burden off of the lumber industry, I mean the work is essentially free.",
+                    "sender": "jack.tree@lumber.gov",
+                    "result": "issue_4_result_1"
+                },
+                {
+                    "text": "Wow, looks like we have 2 criminals on the loose today! How about we do NONE of what you just said plus NONE of what the fire guy said and institutionalize both of them? Furthermore, how about we put in plan to regulate farmland clearing and deforestation? If the Earth breathes, we breathe. If the Earth dies, we die. Simple as.",
+                    "sender": "beth.bear@tree.gov",
+                    "result": "issue_4_result_2"
+                },
+                {
+                    "text": "Not only does the fire guy have a point, I think we should help him. We should usher in a new era of land development. We should clear out the trees and start building new homes, new businesses, new everything. We should start a new era of development and prosperity.",
+                    "sender": "hank.land@deve.gov",
+                    "result": "issues_4_result_3"
+                }
+            ]
+        }
+    ]
+}
+    
